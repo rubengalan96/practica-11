@@ -1,0 +1,50 @@
+section.plantilla{
+    background-color: black;
+    color: orange;
+    text-align: center;
+
+}
+
+img.jugador{
+    height: 250px;
+    width: 170px;
+}
+
+p.cabeceras{
+    font-weight: bold;
+}
+
+img.escudo{
+    height: 40px;
+    width: 40px;
+    margin-left: 270px;
+    float: left;
+}
+
+p.derecha{
+    text-align: right;
+    margin-right: 200px;
+}
+section.formulario{
+    background-color: white;
+    
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+span.pequenyo{
+    font-size: xx-small;
+}
+
+img.campo{
+    height: 300px;
+    width: 400px;
+}
+
+img.plantilla{
+    height: 100px;
+    width: 200px;
+}
+body.centrado{
+    text-align: center;
+}

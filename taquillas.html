@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taquillas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header> <a href="index.html"><img src="img/escudo.png" alt="escudoVCF" class="escudo"></a>
+        <p class="derecha"> <a href="taquillas.html">Solicitar entradas</a></p>
+    </header>
+    <br>
+    <hr>
+    <main>
+        <section class="formulario">
+            <form action="pagina.php" method="GET">
+                <h2>Solicitar entradas</h2>
+                <p>
+                    Nombre y apellidos <br> <input type="text" name="nombre" size="70">
+                </p>
+                <p>
+                    DNI <br> <input type="email" name="correo" size="70">
+                </p>
+                <p>
+                    Fecha de nacimiento: <br><input type="date" name="fecha nacimiento" id="fecha_n">
+                </p>
+                <p>
+                    Correo electrónico <br> <input type="email" name="correo" size="70">
+                </p>
+                
+                <p> Jornada
+                <select name="menu2">
+                    <option value="0">-</option>
+                    <option value="1">VALENCIA CF-C.A. OSASUNA</option>
+                    <option value="2">VALENCIA CF-ELCHE CF</option>
+                    <option value="3">VALENCIA CF-RC CELTA</option>
+                    <option value="4">VALENCIA CF-VILLARREAL CF</option>
+                    <option value="5">VALENCIA CF-GRANADA CF</option>
+                </select><br></p>
+                <p>
+                    Cantidad de entradas 
+                    <select name="menu">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                      </select>
+                      <span class="pequenyo">Máximo se puede comprar 3 entradas por usuario.</span>
+                </p>
+                <p>
+                    Petición especial(casos como movilidad reducida) <br> <textarea name="texto" rows="4" cols="40" placeholder="Escriba algo"></textarea>
+                    <br>
+                </p>
+                <p>
+                   Ubicación  <br>
+                   <select name="menu2">
+                    <option value="0">-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">15</option>
+                    <option value="12">16</option>
+                    <option value="13">17</option>
+                    <option value="14">18</option>
+                    <option value="15">27</option>
+                    <option value="16">28</option>
+                    <option value="17">29</option>
+                    <option value="18">30</option>
+                    <option value="19">27 cubierto</option>
+                    <option value="20">28 cubierto</option>
+                    <option value="21">29 cubierto</option>
+                    <option value="22">30 cubierto</option>
+                    <option value="23">Sillas Gol Sur</option>
+                    <option value="24">Sillas Gol Sur alto</option>
+                    <option value="25">Gol Gran</option>
+                    <option value="26">Gol Gran alto</option>
+                    <option value="27">Tribuna baja</option>
+                    <option value="28">Tribuna lateral</option>
+                    <option value="29">Tribuna preferente</option>
+                    <option value="30">Tribuna central</option>
+                    <option value="31">Anfiteatro central</option>
+                    <option value="32">Anfiteatro lateral y alto</option>
+                    <option value="33">Sillas gol Norte</option>
+                    <option value="34">Sillas gol Norte alto</option>
+                    <option value="35">Gol Xicotet</option>
+                    <option value="36">Gol Xicotet alto</option>
+                    <option value="36">Grada de la Mar</option>
+                    
+                </select><br>
+                <img src="img/campo.jpg" alt="Ubicaciones" class="campo"></p>
+                </p>
+
+
+
+                <p><input type="submit" value="Enviar" style="color: #ffffff; background-color: #000000"></p>
+
+
+
+            </form>
+
+
+</body>
+
+</html>

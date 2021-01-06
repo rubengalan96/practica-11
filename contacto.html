@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header> <a href="index.html"><img src="img/escudo.png" alt="escudoVCF" class="escudo"></a>
+        
+    </header>
+    <br><br>
+    <hr>
+    <main>
+
+        <section class="formulario">
+            <form action="pagina.php" method="GET">
+                <h2>Enviar una solicitud</h2>
+                <p>Elige el motivo de su solicitud:</p>
+                <p> <select name="menu">
+                        <option value="0">-</option>
+                        <option value="1">ABONADOS</option>
+                        <option value="2">ACCIONISTAS</option>
+                        <option value="3" selected>TIENDA ONLINE</option>
+                        <!--He preseleccionado este porque me he centrado en este para realizar el formulario-->
+                        <option value="4">BUSSINES CLUB</option>
+                        <option value="5">HOSPITALITY</option>
+                        <option value="6">EVENTOS</option>
+                        <option value="7">CONSULTAS GENERALES</option>
+                        <option value="8">HISTORIAS COVID</option>
+                        <option value="9">TEAM MATES-CUÉNTANOS TU HISTORIA</option>
+                        <option value="10">VISITA COLEGIOS</option>
+                        <option value="11">PEÑISTAS</option>
+                    </select><br></p>
+                <p>
+                    Correo electrónico <br> <input type="email" name="correo" size="70">
+                </p>
+                <p>
+                    Nombre y apellidos <br> <input type="text" name="nombre" size="70">
+                </p>
+                <p> Elige el motivo de su solicitud</p>
+                <select name="menu2">
+                    <option value="0">-</option>
+                    <option value="1">INFORMACIÓN DE PEDIDOS</option>
+                    <option value="2">DEVOLUCIÓN</option>
+                    <option value="3">FACTURA</option>
+                    <option value="4">RECLAMACIÓN</option>
+                    <option value="5">OTRAS CONSULTAS</option>
+                </select><br></p>
+
+                <p>
+                    Número de pedido (Order No.)<br> <input type="text" name="pedido" size="70">
+                </p>
+                <p>
+                    Asunto<br> <input type="text" name="asunto" size="70">
+                </p>
+                <p>
+                    Descripción <br> <textarea name="texto" rows="4" cols="40" placeholder="Escriba algo"></textarea>
+                    <br>
+                    <span class="pequenyo">Ingrese los detalles de esta solicitud. Un integrante de nuestro personal de
+                        soporte responderá en breve.</span>
+                    <br>
+                </p>
+                <p>
+                    Archivos adjuntos <br> <input type="file" name="archivo">
+                </p>
+
+
+
+                <p><input type="submit" value="Enviar" style="color: #ffffff; background-color: #000000"></p>
+
+
+
+            </form>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+</body>
+
+</html>
